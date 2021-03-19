@@ -8,7 +8,11 @@ lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
+# dependencies
+node_modules
+node_modules/
+/.pnp
+.pnp.js
 # Runtime data
 pids
 *.pid
@@ -93,6 +97,9 @@ dist
 
 # Serverless directories
 .serverless/
+
+# misc
+.env.local
 
 # FuseBox cache
 .fusebox/
